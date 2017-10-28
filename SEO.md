@@ -8,5 +8,11 @@ SEM（Search Engine Marketing 搜索引擎营销）
 * SEM短，效益快、SEO长期投入，增长慢
 * 新广告法颁布之后SEM广告位减少，竞争压力大
 
+## IP、PV、UV
+IP: 独立IP访问的用户
+
+PV: 页面浏览量或点击量
+
+UV: 独立访客数
 
 
