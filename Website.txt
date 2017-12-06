@@ -1,1 +1,43 @@
 
+字蛛 字体压缩       http://blog.sina.com.cn/s/blog_a025a3670102wfbv.html 
+压缩 image css js   http://www.cnblogs.com/JreeyQi/p/4900864.html 
+百度地图            http://api.map.baidu.com/lbsapi/creatmap/index.html 
+meta用法介绍	    http://www.cnblogs.com/zhongxinWang/p/4105915.html
+dot.js 渲染引擎     http://geek.csdn.net/news/detail/190118 
+avalon 2 高性能 的前端MVVM框架  http://avalonjs.coding.me/vm.html
+
+https://192.168.1.199/svn/Joynices/Web
+
+http://www.qdfuns.com/notes/19125/aa37b942c3a9c33beb802eddfbbf2c1c.html
+
+优秀网站集      http://www.c945.com/list/collect_default.html
+		https://www.psd2html.com/10-years-in-review/
+		https://www.zhihu.com/question/19559630
+		https://zhuanlan.zhihu.com/p/24262409
+		爱果果
+		八只熊酷站 http://www.8bears.com/coolsite/lists/0---0
+欣赏的网站：
+	http://www.jpgzip.com/
+	https://www.volcan.com/en
+	http://www.ecodom.report/en/
+	http://www.iceart.com.cn/
+	http://www.topve.com/
+	https://www.lonelyplanet.com/
+	http://www.recursouniversum.com/
+	http://www.kikk.be/2017/
+	http://www.maztri.com/en/
+	http://www.shincci.com/  晟启官网
+	http://www.umidigi.com/page-umidigi_zpro_overview.html         UMIDIGI官网
+	https://my.pottermore.com/hogwarts/
+	http://demo.cssmoban.com/cssthemes4/tops_27_logic/index.html
+	http://koniku.com/
+	https://neematic.com
+	http://samukawajinjya.jp/
+	
+云+校园-腾讯云 https://www.qcloud.com/act/campus
+webpack 中文网 https://doc.webpack-china.org/
+	       http://webpack.github.io/
+Angular https://angular.cn/
+Vue:   https://cn.vuejs.org
+微信小程序：http://www.wxapp-union.com/portal.php
+sublime text3:      http://www.cnblogs.com/liuchaoH/p/6370008.html
