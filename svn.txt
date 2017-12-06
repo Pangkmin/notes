@@ -1,0 +1,28 @@
+TortoiseSVN 目录：
+	show log (显示日志文件)
+	Repo-browser(查看当前版本库)
+	Check for modifications(检查更新)
+	Revision graph(版本分支图 )
+	
+	Resolve(解决)
+	Update to revision(更新至版本)
+	Revert(恢复原状)
+	Clean up(清理)
+	Get lock(锁定文件)
+	Release lock(解除锁定)
+	
+	Branch/tag(分支/标签)
+	Switch(转换)
+	Merge(合并)
+	Export(输出)
+	Relocate(迁移)
+	
+	Add
+	Copy URL to clipboard(复制网址)
+	
+	Create patch(创建补丁)
+	Apply patch(应用补丁)
+	Properties(性能)
+	
+	Paste(张贴)
+	
