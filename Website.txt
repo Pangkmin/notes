@@ -5,12 +5,16 @@
 meta用法介绍	    http://www.cnblogs.com/zhongxinWang/p/4105915.html
 dot.js 渲染引擎     http://geek.csdn.net/news/detail/190118 
 avalon 2 高性能 的前端MVVM框架  http://avalonjs.coding.me/vm.html
+前端资源:http://www.qdfuns.com/notes/19125/aa37b942c3a9c33beb802eddfbbf2c1c.html
+云+校园-腾讯云 https://www.qcloud.com/act/campus
+webpack 中文网 https://doc.webpack-china.org/
+	       http://webpack.github.io/
+Angular https://angular.cn/
+Vue:   https://cn.vuejs.org
+微信小程序：http://www.wxapp-union.com/portal.php
+sublime text3:      http://www.cnblogs.com/liuchaoH/p/6370008.html
 
-https://192.168.1.199/svn/Joynices/Web
-
-http://www.qdfuns.com/notes/19125/aa37b942c3a9c33beb802eddfbbf2c1c.html
-
-优秀网站集      http://www.c945.com/list/collect_default.html
+优秀网站平台     http://www.c945.com/list/collect_default.html
 		https://www.psd2html.com/10-years-in-review/
 		https://www.zhihu.com/question/19559630
 		https://zhuanlan.zhihu.com/p/24262409
@@ -26,18 +30,13 @@ http://www.qdfuns.com/notes/19125/aa37b942c3a9c33beb802eddfbbf2c1c.html
 	http://www.recursouniversum.com/
 	http://www.kikk.be/2017/
 	http://www.maztri.com/en/
-	http://www.shincci.com/  晟启官网
-	http://www.umidigi.com/page-umidigi_zpro_overview.html         UMIDIGI官网
+	晟启官网  http://www.shincci.com/  
+	UMIDIGI手机官网  http://www.umidigi.com/page-umidigi_zpro_overview.html         
 	https://my.pottermore.com/hogwarts/
 	http://demo.cssmoban.com/cssthemes4/tops_27_logic/index.html
 	http://koniku.com/
 	https://neematic.com
 	http://samukawajinjya.jp/
+	QQ浏览器官方网站 http://browser.qq.com/
+	魅族手机  https://www.meizu.com/
 	
-云+校园-腾讯云 https://www.qcloud.com/act/campus
-webpack 中文网 https://doc.webpack-china.org/
-	       http://webpack.github.io/
-Angular https://angular.cn/
-Vue:   https://cn.vuejs.org
-微信小程序：http://www.wxapp-union.com/portal.php
-sublime text3:      http://www.cnblogs.com/liuchaoH/p/6370008.html
