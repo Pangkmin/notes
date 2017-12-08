@@ -218,19 +218,24 @@ input[type="button"] {…};
 
 浏览器将检查整个文档中的所有链接和每个链接的父元素，并遍历文档树去查找ID为header的祖先元素，如果找不到header将追溯到文档的根节点，解决方法如下。
 
-避免使用通配规则和相邻兄弟选择符、子选择符,、后代选择符、属性选择符等选择器
-不要限定id选择符，如div#header（提权的除外）
-不要限定类选择器，如ul.recommend（提权的除外）
-不要使用 ul li a 这样长的选择符
-避免使用标签子选择符，如#header > li > a
-使用z-index属性尽量z-index的值不要超过150（通用组的除外），页面中的元素内容的z-index不能超过10（提示框等模块除外但维持在150以下），不允许直接使用（999~9999）之间大值。
-尽量避免使用CSS Hack。
+避免使用通配规则和相邻兄弟选择符、子选择符,、后代选择符、属性选择符等选择器<br/>
+不要限定id选择符，如div#header（提权的除外）<br/>
+不要限定类选择器，如ul.recommend（提权的除外）<br/>
+不要使用 ul li a 这样长的选择符<br/>
+避免使用标签子选择符，如#header > li > a<br/>
 
+* 使用z-index属性尽量z-index的值不要超过150（通用组的除外），页面中的元素内容的z-index不能超过10（提示框等模块除外但维持在150以下），不允许直接使用（999~9999）之间大值。
+
+* 尽量避免使用CSS Hack。
+```
 property:value; /* 所有浏览器 */
 +property:value; /* IE7 */
 _property:value; /* IE6 */
 *property:value; /* IE6/7 */
 property:value\9; /* IE6/7/8/9，即所有IE浏览器 */
+```
+
+```
 * html selector { … }; /* IE6 */
 *:first-child+html selector { … }; /* IE7 */
 html>body selector { … }; /* 非IE6 */
@@ -238,36 +243,44 @@ html>body selector { … }; /* 非IE6 */
 @media all and (-webkit-min-device-pixel-ratio:0) { … }; /* saf3+/chrome1+ */
 @media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0) { … }; /* opera */
 @media screen and (max-device-width: 480px) { … }; /* iPhone/mobile webkit */
-避免使用低效的选择器。
+```
 
+避免使用低效的选择器。
+```
 body > * {…};
 ul > li > a {…};
 #footer > h3 {…};
 ul#top_blue_nav {…};
 #searbar span.submit a { … }; /* 反面示例 */
-六个不要三个避免一个使用。
+```
 
-不要在标签上直接写样式
-不要在CSS中使用expression
-不要在CSS中使用@import
-不要在CSS中使用!important
-不要在CSS中使用“*”选择符
-不要将CSS样式写为单行
-避免使用filter
-避免使用行内（inline）样式
-避免使用“*”设置{margin: 0; padding: 0;}
-使用after或overflow的方式清浮动
-减少使用影响性能的属性。
+* 六个不要三个避免一个使用。
 
+不要在标签上直接写样式 <br/>
+不要在CSS中使用expression <br/>
+不要在CSS中使用@import <br/>
+不要在CSS中使用!important <br/>
+不要在CSS中使用“*”选择符 <br/>
+不要将CSS样式写为单行 <br/>
+避免使用filter <br/>
+避免使用行内（inline）样式 <br/>
+避免使用“*”设置{margin: 0; padding: 0;} <br/>
+使用after或overflow的方式清浮动 <br/>
+
+* 减少使用影响性能的属性。
+```
 position:absolute;
 float:left;//如这些定位或浮动属性
+```
+
 减少在CSS中使用滤镜表达式和图片repeat,
 尤其在body当中,渲染性能极差, 如果需要用repeat的话,
 图片的宽或高不能少于8px。
-javaScript书写规范：
 
-命名规范。
+### javaScript书写规范：
 
+* 命名规范。
+```
 常量名
     全部大写并单词间用下划线分隔
     如：CSS_BTN_CLOSE、TXT_LOADING
@@ -295,49 +308,65 @@ javaScript书写规范：
     -->如：_current、_defaultConfig
 变量名的前缀
     -->续
-代码格式。
+```
 
-"()"前后需要跟空格
-"="前后需要跟空格
-","后面需要跟空格
-JSON对象需格式化对象参数
-if、while、for、do语句的执行体用"{}"括起来
+* 代码格式。
+
+"()"前后需要跟空格 <br/>
+"="前后需要跟空格 <br/>
+","后面需要跟空格 <br/> 
+JSON对象需格式化对象参数 <br/>
+if、while、for、do语句的执行体用"{}"括起来 <br/>
+
 "{}"格式如下。
-
+```js
 if (a==1) {
     //代码
 };
+```
+
 避免额外的逗号。
-
+```js
 var arr = [1,2,3,];
-for-in循环体中必须用hasOwnProperty方法检查成员是否为自身成员，避免来自原型链上的污染。
-长语句可考虑断行。
+```
 
+for-in循环体中必须用hasOwnProperty方法检查成员是否为自身成员，避免来自原型链上的污染。
+
+* 长语句可考虑断行。
+```js
 TEMPL_SONGLIST.replace('{TABLE}', da['results'])
     .replace('{PREV_NUM}', prev)
     .replace('{NEXT_NUM}', next)
     .replace('{CURRENT_NUM}', current)
     .replace('{TOTAL_NUM}', da.page_total);
-为了避免和JSLint的检验机制冲突，“.”或“+”这类操作符放在行尾。
+```
 
+为了避免和JSLint的检验机制冲突，“.”或“+”这类操作符放在行尾。
+```js
 TEMPL_SONGLIST.replace('{TABLE}', da['results']).
     replace('{PREV_NUM}', prev).
     replace('{NEXT_NUM}', next).
     replace('{CURRENT_NUM}', current).
     replace('{TOTAL_NUM}', da.page_total);
+```
+
 如果模块代码中，使用其它全局变量想跳过JSLint的检查，可以在该文件中加入/*global*/声明。
-
+```js
 /*global alert: true, console: true, top: true, setTimeout: true */
-使用严格的条件判断符。用===代替==，用!==代替!=，避免掉入==造成的陷阱
-在条件判断时，这样的一些值表示false。
+```
 
+* 使用严格的条件判断符。用===代替==，用!==代替!=，避免掉入==造成的陷阱
+在条件判断时，这样的一些值表示false。
+```
 null
 undefined与null相等
 字符串''
 数字0
 NaN
-在==时，则会有一些让人难以理解的陷阱。
+```
 
+在==时，则会有一些让人难以理解的陷阱。
+```js
 (function () {
     var undefined;
     undefined == null; // true
@@ -349,25 +378,30 @@ NaN
     [] == false; // true
     [] == ![]; // true
 })();
-对于不同类型的 == 判断，有这样一些规则，顺序自上而下：
+```
 
+对于不同类型的 == 判断，有这样一些规则，顺序自上而下：
+```
 undefined与null相等
 一个是number一个是string时，会尝试将string转换为number
-尝试将boolean转换为number
-0或1
-尝试将Object转换成number或string
-而这些取决于另外一个对比量，即值的类型，所以对于0、空字符串的判断，建议使用===
-。===会先判断两边的值类型，类型不匹配时为false。
-下面类型的对象不建议用new构造。
+尝试将boolean转换为number 
+0或1 
+尝试将Object转换成number或string 
+```
+而这些取决于另外一个对比量，即值的类型，所以对于0、空字符串的判断，建议使用===，===会先判断两边的值类型，类型不匹配时为false。
 
+* 下面类型的对象不建议用new构造。
+```
 new Number
 new String
 new Boolean
 new Object //用{}代替
 new Array //用[]代替
+```
 引用对象成员用obj.prop代替obj["prop"]，除非属性名是变量。
-从number到string的转换。
 
+* 从number到string的转换。
+```js
 /** 推荐写法*/
 var a = 1;
 typeof(a); //"number"
@@ -377,8 +411,10 @@ typeof(aa); //"string"
 console.log(aa); //'1'
 /** 不推荐写法*/
 new String(a)或a.toString()
-从string到number的转换，使用parseInt，必须显式指定第二个参数的进制。
+```
 
+从string到number的转换，使用parseInt，必须显式指定第二个参数的进制。
+```js
 /** 推荐写法*/
 var a = '1';
 var aa = parseInt(a,10);
@@ -386,14 +422,18 @@ typeof(a); //"string"
 console.log(a); //'1'
 typeof(aa); //"number"
 console.log(aa); //1
-从float到integer的转换。
+```
 
+从float到integer的转换。
+```
 /** 推荐写法*/
 Math.floor/Math.round/Math.ceil
 /** 不推荐写法*/
 parseInt
-字符串拼接应使用数组保存字符串片段，使用时调用join方法。避免使用+或+=的方式拼接较长的字符串，每个字符串都会使用一个小的内存片段，过多的内存片段会影响性能。
+```
 
+字符串拼接应使用数组保存字符串片段，使用时调用join方法。避免使用+或+=的方式拼接较长的字符串，每个字符串都会使用一个小的内存片段，过多的内存片段会影响性能。
+```js
 /**推荐的拼接方式array的push、join*/
 var str=[],
     list=['测试A','测试B'];
@@ -408,30 +448,39 @@ for (var i = 0, len = list.length; i< len; i++) {
     str+='<div>' + list[i] + '</div>';
 };
 console.log(str); //<div>测试A</div><div>测试B</div>
-尽量避免使用存在兼容性及消耗资源的方法或属性。
+```
+
+* 尽量避免使用存在兼容性及消耗资源的方法或属性。
 
 不要使用with，void，evil，eval_r，innerText
-注重HTML分离, 减小reflow, 注重性能。
-图片规范：
 
-命名应用小写英文、数字、_组合，便于团队其他成员理解。
+* 注重HTML分离, 减小reflow, 注重性能。
 
+
+### 图片规范：
+
+* 命名应用小写英文、数字、_组合，便于团队其他成员理解。
+```
 header_btn.gif
 header_btn2.gif
-页面元素类图片均放入img文件夹,
-测试用图片放于img/testimg文件夹，psd源图放入img/psdimg文件夹。
-图片格式仅限于gif、png、jpg等。
-用png图片做图片时,
-要求图片格式为png-8格式,若png-8实在影响图片质量或其中有半透明效果,
-请为ie-6单独定义背景，并尽量避免使用半透明的png图片。
-背景图片请尽可能使用sprite技术, 减小http请求。
-注释规范：
+```
+
+* 页面元素类图片均放入img文件夹,测试用图片放于img/testimg文件夹，psd源图放入img/psdimg文件夹。
+* 图片格式仅限于gif、png、jpg等。
+* 用png图片做图片时,
+    要求图片格式为png-8格式,若png-8实在影响图片质量或其中有半透明效果,
+    请为ie-6单独定义背景，并尽量避免使用半透明的png图片。
+* 背景图片请尽可能使用sprite技术, 减小http请求。
+
+### 注释规范：
 
 JAVASCRIPT、CSS文件注释需要标明作者、文件版本、创建/修改时间、重大版本修改记录、函数描述、文件版本、创建或者修改时间、功能、作者等信息。
-
+```
 /* * 注释块 */
-中间可添加如下信息。
+```
 
+中间可添加如下信息。
+```
 @file 文件名
 @addon 把一个函数标记为另一个函数的扩张，另一个函数的定义不在源文件中
 @argument 用大括号中的自变量类型描述一个自变量
@@ -455,13 +504,10 @@ JAVASCRIPT、CSS文件注释需要标明作者、文件版本、创建/修改时
 @throws 描述函数/类可能产生的错误
 @type 指定函数/成员的返回类型
 @version 函数/类的版本号
-开发及测试工具约定：
+```
 
-编码格式化，三码统一。
-测试工具: 前期开发仅测试FireFox & IE6 & IE7 & IE8 & IE9 & Opera &
-Chrome & Safari
+### 开发及测试工具约定：
 
-作者：kangkk
-链接：http://www.jianshu.com/p/c361ced48e14
-來源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+* 编码格式化，三码统一。
+* 测试工具: 前期开发仅测试FireFox & IE6 & IE7 & IE8 & IE9 & Opera & Chrome & Safari
+
