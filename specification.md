@@ -24,10 +24,12 @@ ad、ads、adv、banner、sponsor、gg、guangg、guanggao等
 ```html
 <!DOCTYPE html>
 ```
+
 文档类型声明统一为HTML5声明类型，编码统一为UTF-8。
 ```html
 <meta charset="UTF-8">
 ```
+
 在head标签中添加信息。
 ```html
 <meta name="author" content="smile@kang.cool">//作者
@@ -41,13 +43,15 @@ ad、ads、adv、banner、sponsor、gg、guangg、guanggao等
 <link rel="Shortcut Icon" href="favicon.ico">//收藏图标
 <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">//网页不会被缓存
 ```
+
 IE支持通过特定<meta>标签来确定绘制当前页面所应该采用的IE版本。除非有强烈的特殊需求，否则最好是设置为edge
 mode ，从而通知IE采用其所支持的最新的模式。
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 ```
-非特殊情况下CSS样式文件外链至HEAD之间，JAVASCRIPT文件外链至页面底部。
 
+非特殊情况下CSS样式文件外链至HEAD之间，JAVASCRIPT文件外链至页面底部。
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -59,78 +63,99 @@ mode ，从而通知IE采用其所支持的最新的模式。
     <script src="lib/jquery/jquery-2.1.1.min.js"></script>
 </body>
 </html>
+```
+
 引入JAVASCRIPT库文件，文件名须包含库名称及版本号及是否为压缩版。
-
+```
 jQuery-1.8.3.min.js
+```
+
 引入JAVASCRIPT插件, 文件名格式为库名称+.+插件名称。
-
+```
 jQuery.cookie.js
-HTML属性应当按照以下给出的顺序依次排列，来确保代码的易读性。
+```
 
+* HTML属性应当按照以下给出的顺序依次排列，来确保代码的易读性。
+```
 class
 id 、 name
 data-*
 src、for、 type、 href
 title、alt
 aria-*、 role
-编码均遵循XHTML标准,
-标签、属性、属性命名由小写英文、数字和_组成，且所有标签必须闭合，属性值必须用双引号"",
-避免使用中文拼音尽量简易并要求语义化。
+```
 
+编码均遵循XHTML标准,<br/>
+标签、属性、属性命名由小写英文、数字和_组成，且所有标签必须闭合，属性值必须用双引号"",<br/>
+避免使用中文拼音尽量简易并要求语义化。<br/>
+```
 CLASS --> nHeadTitle --> CLASS遵循小驼峰命名法（little camel-case）
 ID --> n_head_title --> ID遵循名称+_
 NAME --> N_Head_Title --> NAME属性命名遵循首个字母大写+_
 <div class="nHeadTitle" id="n_head_title" name="N_Head_Title"></div>
-当JAVASCRIPT获取单个元素时，通常使用document.getElementById来获取dom元素，document.getElementById兼容所有浏览器，但IE浏览器会混淆元素的ID和NAME属性，所以要区分ID和NAME命名。
+```
 
+当JAVASCRIPT获取单个元素时，通常使用document.getElementById来获取dom元素，document.getElementById兼容所有浏览器，但IE浏览器会混淆元素的ID和NAME属性，所以要区分ID和NAME命名。
+```html
 <input type="text" name="test">
 <div id="test"></div>
 <button onclick="alert(document.getElementById('test').tagName)"></button>
 <!-- ie6下为INPUT -->
-特殊符号应使用转意符。
+```
 
+*  特殊符号应使用转意符。
+```
 <    -->    <
 >    -->    >
 空格  -->     
-含有描述性表单元素（INPUT，TEXTAREA）添加LABEL。
+```
 
+*  含有描述性表单元素（INPUT，TEXTAREA）添加LABEL。
+```html
 <p>
     <label for="test">测试</label>
     <input type="text" id="test" />
 </p>
-多用无兼容性问题的HTML内置标签,
-比如SPAN、EM、STRONG、OPTGROUP、LABEL等,需要自定义HTML标签属性时，首先考虑是否存在已有的合适标签可替换，如果没有,
-可使用须以“data-”为前缀来添加自定义属性，避免使用其他命名方式。
-语义化HTML。
-尽可能减少<DIV>嵌套。
-书写链接地址时避免重定向。
+```
 
+* 多用无兼容性问题的HTML内置标签
+比如SPAN、EM、STRONG、OPTGROUP、LABEL等,需要自定义HTML标签属性时，首先考虑是否存在已有的合适标签可替换，如果没有,可使用须以“data-”为前缀来添加自定义属性，避免使用其他命名方式。
+
+* 语义化HTML。
+* 尽可能减少<DIV>嵌套。
+    
+* 书写链接地址时避免重定向。<br/>
+```
 href="http://www.kahn1990.com/" //即在URL地址后面加“/”
-HTML中对于属性的定义，确保全部使用双引号，绝不要使用单引号
-css书写规范：
+```
+    
+* HTML中对于属性的定义，确保全部使用双引号，绝不要使用单引号
+### css书写规范：
 
-为了欺骗W3C的验证工具,可将代码分为两个文件，一个是针对所有浏览器,一个只针对IE。即将所有符合W3C的代码写到一个文件中,而一些IE中必须而又不能通过W3C验证的代码（如:
-cursor:hand;）放到另一个文件中，再用下面的方法导入。
-
+* 为了欺骗W3C的验证工具,可将代码分为两个文件，一个是针对所有浏览器,一个只针对IE。即将所有符合W3C的代码写到一个文件中,而一些IE中必须而又不能通过W3C验证的代码（如:cursor:hand;）放到另一个文件中，再用下面的方法导入。
+```
 <!-- 放置所有浏览器样式-->
 <link rel="stylesheet" type="text/css" href="">
 <!-- 只放置IE必须，而不能通过w3c的-->
 <!--[if IE]
     <link rel="stylesheet" href="">
 <![endif]-->
-CSS样式新建或修改尽量遵循以下原则。
+```
+* CSS样式新建或修改尽量遵循以下原则。
 
 根据新建样式的适用范围分为三级：全站级、产品级、页面级。
 尽量通过继承和层叠重用已有样式。
 不要轻易改动全站级CSS。改动后，要经过全面测试。
-CSS属性显示顺序。
+
+* CSS属性显示顺序。
 
 显示属性
 元素位置
 元素属性
 元素内容属性
-CSS书写顺序。
 
+CSS书写顺序。
+```css
 .header {
 /* 显示属性 */
     display || visibility
@@ -160,25 +185,37 @@ CSS书写顺序。
     cursor
     content
     };
-兼容多个浏览器时，将标准属性写在底部。
+```
 
+兼容多个浏览器时，将标准属性写在底部。
+```
 -moz-border-radius: 15px; /* Firefox */
 -webkit-border-radius: 15px; /* Safari和Chrome */
 border-radius: 15px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 *//标准属性
+```
+
 使用选择器时，命名比较短的词汇或者缩写的不允许直接定义样式。
-
+```
 .hd,.bd,.td{};//如这些命名
+```
+
 可用上级节点进行限定。
-
+```
 .recommend-mod .hd
-多选择器规则之间换行，即当样式针对多个选择器时每个选择器占一行。
+```
 
+多选择器规则之间换行，即当样式针对多个选择器时每个选择器占一行。
+```
 button.btn,
 input.btn,
 input[type="button"] {…};
-优化CSS选择器。
+```
 
+* 优化CSS选择器。
+```css
 #header a { color: #444; };/*CSS选择器是从右边到左边进行匹配*/
+```
+
 浏览器将检查整个文档中的所有链接和每个链接的父元素，并遍历文档树去查找ID为header的祖先元素，如果找不到header将追溯到文档的根节点，解决方法如下。
 
 避免使用通配规则和相邻兄弟选择符、子选择符,、后代选择符、属性选择符等选择器
