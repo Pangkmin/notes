@@ -104,3 +104,6 @@ Alt+Shift+9 垂直分屏-3屏<br/>
 Ctrl+K+B 开启/关闭侧边栏。<br/>
 F11 全屏模式<br/>
 Shift+F11 免打扰模式<br/>
+
+## Sublime Text 3如何快速生成HTML5的头部信息
+
