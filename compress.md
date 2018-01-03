@@ -6,7 +6,7 @@
 和TinyPNG差不多，支持中文浏览，压缩完成后还可以调整图片质量，以及预览压缩后的图片是什么样的
 
 ## 3、Kraken(https://kraken.io/web-interface)
-Kraken的操作界面稍显复杂，功能类似于http://Compressor.io，允许你在有损和无损压缩之间进行选择，你上传的图片没有数量限制，但大小有限制，免费版在1M以内，和Kraken类似的http://Compressor.io这个工具也不错，但它不科学上网就不能访问
+Kraken的操作界面稍显复杂，功能类似于(http://Compressor.io)，允许你在有损和无损压缩之间进行选择，你上传的图片没有数量限制，但大小有限制，免费版在1M以内，和Kraken类似的(http://Compressor.io)这个工具也不错，但它不科学上网就不能访问
 
 ## 4、Resize Photos(http://www.resize-photos.com/)
 Resize Photos是一款功能齐全的图片压缩工具，在压缩之前，你可以设置图片的宽度，质量（1到100，越小越不清晰）和格式（支持JPG、PNG、GIF、BMP），压缩完之后还可以给图片增加效果，类似于美图秀秀那种一键美化图片的那种功能。
