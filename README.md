@@ -13,5 +13,5 @@ http://jsrun.net/tutorial/dZKKp
 ### 图片无损压缩工具
 [在线压缩](./compress.md)
 
-### submit text3
-[submit text 快捷键](./submit.md)
+### sublime text3
+[sublime text 快捷键](./sublime.md)
