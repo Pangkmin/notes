@@ -1,3 +1,18 @@
 
-## TinyPNG(https://tinypng.com/)
+## 1、TinyPNG(https://tinypng.com/)
 它一次可以批量压缩最多20张JPG或PNG图片，压缩完后还可以打包下载，TinyPNG除了在线版还有插件版，能把外贸网站里的图片自动压缩，总之功能很强大。
+
+## 2、Optimizilla(http://optimizilla.com/zh/)
+和TinyPNG差不多，支持中文浏览，压缩完成后还可以调整图片质量，以及预览压缩后的图片是什么样的
+
+## 3、Kraken(https://kraken.io/web-interface)
+Kraken的操作界面稍显复杂，功能类似于http://Compressor.io，允许你在有损和无损压缩之间进行选择，你上传的图片没有数量限制，但大小有限制，免费版在1M以内，和Kraken类似的http://Compressor.io这个工具也不错，但它不科学上网就不能访问
+
+## 4、Resize Photos(http://www.resize-photos.com/)
+Resize Photos是一款功能齐全的图片压缩工具，在压缩之前，你可以设置图片的宽度，质量（1到100，越小越不清晰）和格式（支持JPG、PNG、GIF、BMP），压缩完之后还可以给图片增加效果，类似于美图秀秀那种一键美化图片的那种功能。
+
+## 5、图好快(http://www.tuhaokuai.com/)
+图好快是我最早接触到的国内图片无损压缩工具，分为免费版和付费版，支持批量上传，不过不如国外的好用，可能我使用的是免费版的缘故吧。图好快除了图片压缩还有其它功能，包括图片水印，格式转化等等。
+
+## 6、色彩笔(http://www.secaibi.com/tools/)
+色彩笔是一个免费的在线图片压缩小工具，可以非常方便得将PNG/GIF/JPG图片大小优化到极限，为移动设备（如：手机平版）访问节约数据流量，提高访问速度。简洁又漂亮的界面响应处理速度极快，并且支持多个文件批量上传。依赖专业专业算法支持，在图片体积大大减小后, 仍能让清晰度保持和原版一样。
