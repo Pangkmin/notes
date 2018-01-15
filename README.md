@@ -15,3 +15,4 @@ http://jsrun.net/tutorial/dZKKp
 
 ### sublime text3
 [sublime text 快捷键](./sublime.md)
+[sublime 安装包 快捷键](./package.md)
