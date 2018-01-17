@@ -53,4 +53,4 @@ div{display:table-cell; width:1em; height:1em; border:1px solid #beceeb; font-si
 div img{vertical-align:middle;}
 ```
 效果：
-![](assets/web_gui.png)
+![](img/user02.jpg)
