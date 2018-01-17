@@ -47,6 +47,8 @@ p::after {
 ```
 
 ## display:table-cell与大小不固定元素的垂直居中
+display:table-cell属性指让标签元素以表格单元格的形式呈现，类似于td标签。
+
 CSS代码：
 ```css
 div{
