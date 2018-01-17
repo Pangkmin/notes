@@ -49,8 +49,16 @@ p::after {
 ## display:table-cell与大小不固定元素的垂直居中
 CSS代码：
 ```css
-div{display:table-cell; width:1em; height:1em; border:1px solid #beceeb; font-size:144px; text-align:center; vertical-align:middle;} 
+div{
+ display:table-cell; 
+ width:1em; height:1em; 
+ border:1px solid #beceeb; 
+ font-size:144px; 
+ text-align:center; 
+ vertical-align:middle;
+} 
 div img{vertical-align:middle;}
 ```
 效果：
+
 ![](img/user02.jpg)
