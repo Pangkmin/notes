@@ -99,5 +99,5 @@ box-align:center;
 
 ```
 效果：
-![](img/user02.jpg)
+![](img/box-pack.png)
 
