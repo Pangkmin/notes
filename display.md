@@ -66,8 +66,9 @@ div img{vertical-align:middle;}
 ![](img/user02.jpg)
 
 ## 通过使用 box-align and box-pack 属性，居中 div 框的子元素：
-```css
-<style> 
+
+```html
+<style>
 div
 {
 width:350px;
@@ -90,10 +91,9 @@ box-pack:center;
 box-align:center;
 }
 </style>
-```
-```html
+
 <div>
-<p>我是居中对齐的。</p>
+ <p>我是居中对齐的。</p>
 </div>
 ```
 
