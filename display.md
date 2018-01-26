@@ -92,8 +92,12 @@ box-align:center;
 }
 </style>
 
-<div>
- <p>我是居中对齐的。</p>
+<div class="box">
+ <p>居中对齐1，</p>
+ <div>居中对齐2</div>
 </div>
+
 ```
+效果：
+![](img/user02.jpg)
 
