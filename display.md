@@ -121,3 +121,4 @@ box-align:center;
 
 ```
 效果：<br/>
+![](img/justify.png)
