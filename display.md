@@ -69,7 +69,7 @@ div img{vertical-align:middle;}
 
 ```html
 <style>
-div
+.box
 {
 width:350px;
 height:100px;
@@ -101,3 +101,23 @@ box-align:center;
 效果：<br/>
 ![](img/box-pack.png)
 
+```html
+<style>
+.box{
+ width:350px;
+ height:100px;
+ border:1px solid black;
+ display:-webkit-box;
+
+-webkit-box-pack:justify;
+
+-webkit-box-align:center;
+}
+</style>
+<div class="box">
+ <p>对齐1，</p>
+ <div>对齐2</div>
+</div>
+
+```
+效果：<br/>
