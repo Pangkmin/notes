@@ -98,6 +98,6 @@ box-align:center;
 </div>
 
 ```
-效果：
+效果：<br/>
 ![](img/box-pack.png)
 
