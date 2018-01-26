@@ -64,3 +64,36 @@ div img{vertical-align:middle;}
 效果：
 
 ![](img/user02.jpg)
+
+## 通过使用 box-align and box-pack 属性，居中 div 框的子元素：
+```css
+<style> 
+div
+{
+width:350px;
+height:100px;
+border:1px solid black;
+  
+/* Firefox */
+display:-moz-box;
+-moz-box-pack:center;
+-moz-box-align:center;
+
+/* Safari, Chrome, and Opera */
+display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+
+/* W3C */
+display:box;
+box-pack:center;
+box-align:center;
+}
+</style>
+```
+```html
+<div>
+<p>我是居中对齐的。</p>
+</div>
+```
+
