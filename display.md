@@ -122,3 +122,38 @@ box-align:center;
 ```
 效果：<br/>
 ![](img/justify.png)
+
+## 伪类居中
+```html
+<style>
+#loading{
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ left: 0;
+ z-index: 700;
+ background-color: rgba(0,0,0,0.1);
+ text-align: center;
+}
+ #J_loading:after {
+    content: " ";
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+ #J_loading .loader {
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+}
+</style>
+
+<div id="loading">
+  <div class="loader></div>
+</div>
+```
+效果：<br/>
+![](img/after.png)
+
