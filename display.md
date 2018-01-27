@@ -155,5 +155,5 @@ box-align:center;
 </div>
 ```
 效果：<br/>
-![](img/after.png)
+![](img/after.jpg)
 
