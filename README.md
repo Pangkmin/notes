@@ -20,3 +20,6 @@ http://jsrun.net/tutorial/dZKKp
 
 ### CSS 布局
 [多行文本溢出及对齐](./display.md)
+
+### Discuz搭建论坛
+[Discuz在Windows服务器上的环境搭建](./discuz.md)
