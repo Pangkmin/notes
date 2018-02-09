@@ -23,3 +23,4 @@ http://jsrun.net/tutorial/dZKKp
 
 ### Discuz搭建论坛
 [Discuz在Windows服务器上的环境搭建](./discuz.md)
+[Discuz在CentOS服务器上的环境搭建](./discuz_centos.md)
