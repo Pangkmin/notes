@@ -22,5 +22,5 @@ http://jsrun.net/tutorial/dZKKp
 [多行文本溢出及对齐](./display.md)
 
 ### Discuz搭建论坛
-[Discuz在Windows服务器上的环境搭建](./discuz.md)
+[Discuz在Windows服务器上的环境搭建](./discuz.md) <br/>
 [Discuz在CentOS服务器上的环境搭建](./discuz_centos.md)
