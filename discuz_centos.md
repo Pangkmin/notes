@@ -6,6 +6,22 @@ LAMP 是 Linux、Apache、MySQL 和 PHP 的缩写，是 Discuz 论坛系统依�
 ```base
 yum install mysql-server -y
 ```
+
+若在centos mysql安装时报No package mysql-server available错误是因为我们本地yum仓库中没有可用的mysql-server rpm包，因此在yum安装之前先在本地备好rpm软件包。<br/>
+在Centos 7上使用:
+```base
+[root@VM_230_32_centos ~]# rpm -ivh https://repo.mysql.com//mysql57-community-release-el7-11.noarch.rpm
+Retrieving 
+https://repo.mysql.com//mysql57-community-release-el7-11.noarch.rpm
+warning: /var/tmp/rpm-tmp.7OOdD1: Header V3 DSA/SHA1 Signature, key ID 5072e1f5: NOKEY
+Preparing... ################################# [100%]
+Updating / installing...
+1:mysql57-community-release-el7-11 ################################# [100%]
+[root@eb2476e8763c /]#
+```
+rpm软件包安装好之后，我们就可以使用yum install mysql-server命令来安装mysql了。
+
+
 安装完成后，启动 MySQL 服务：
 ```base
 service mysqld restart
