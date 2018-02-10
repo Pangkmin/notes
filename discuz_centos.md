@@ -39,7 +39,16 @@ error: 'Access denied for user 'root'@'localhost' (using password: NO)'
 ```base
 grep 'temporary password' /var/log/mysqld.log
 ```
-初始密码为locald
+用默认密码登录
+```base
+shell> mysql -uroot -p
+mysql> Enter password: Q2>r4=l-DWIP
+```
+修改默认密码
+```base
+mysql> SET PASSWORD = PASSWORD('root');
+# 上面的root是你的新密码
+```
 
 将 MySQL 设置为开机自动启动：
 ```base
