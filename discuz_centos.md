@@ -87,3 +87,22 @@ chkconfig php-fpm on
 ```
 CentOS 6 默认已经安装了 PHP-FPM 及 PHP-MYSQL，下面命令执行的可能会提示已经安装。
 PHP-FPM 默认监听 9000 端口
+
+### 安装并配置 Discuz
+#### 安装 Discuz
+CentOS 6 没有Discuz 的 yum 源，所以我们需要下载一个Discuz 压缩包：
+```base
+wget http://download.comsenz.com/DiscuzX/3.2/Discuz_X3.2_SC_UTF8.zip
+````
+下载完成后，解压这个压缩包:
+```base
+unzip Discuz_X3.2_SC_UTF8.zip
+```
+若报错：-bash: unzip: command not found  <br/>
+错因是unzip——命令没有找到，其原因肯定是没有安装unzip，安装unzip:
+```base
+yum install -y unzip zip
+```
+
+
+
