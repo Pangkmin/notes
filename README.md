@@ -25,4 +25,5 @@ http://jsrun.net/tutorial/dZKKp
 [Discuz在Windows服务器上的环境搭建](./discuz.md) <br/>
 [Discuz在CentOS服务器上的环境搭建](./discuz_centos.md)
 
-### Web前端性能优化——如何有效提升静态文件的加载速度
+### Web前端性能优化
+[如何有效提升静态文件的加载速度](./jzsd.md)
