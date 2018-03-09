@@ -128,3 +128,5 @@
  
 
 我们可以看到vendor.[hash].js文件的大小显著减少，从318kb减少到了不到100kb。
+
+原文：https://www.cnblogs.com/wetest/p/7738862.html
