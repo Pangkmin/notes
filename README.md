@@ -27,3 +27,6 @@ http://jsrun.net/tutorial/dZKKp
 
 ### Web前端性能优化
 [如何有效提升静态文件的加载速度](./jzsd.md)
+
+### PHP手册
+[PHP中文网](http://www.php.cn/toutiao-384729.html)
