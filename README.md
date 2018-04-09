@@ -30,3 +30,7 @@ http://jsrun.net/tutorial/dZKKp
 
 ### PHP手册
 [PHP中文网](http://www.php.cn/toutiao-384729.html)
+
+### HTML常用的特殊符号总结
+
+[haorooms博客](http://www.haorooms.com/post/html_tsfh)
