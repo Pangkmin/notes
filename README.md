@@ -43,5 +43,7 @@ http://jsrun.net/tutorial/dZKKp
 
 [基于SOA架构的分布式电商购物商城 前后端分离 前台商城:Vue全家桶 后台管理系统](https://github.com/HurriedOn/xmall)
 
+[Vue 全家桶 + axios 前端实现登录拦截、登出、拦截器等功能](https://github.com/superman66/vue-axios-github)
+
 ### 在线 .md 转换成 .pdf
 http://www.mdtr2pdf.com/index_en.html
