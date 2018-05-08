@@ -41,5 +41,7 @@ http://jsrun.net/tutorial/dZKKp
 
 [基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用](https://github.com/bailicangdu/vue2-elm)
 
+[基于SOA架构的分布式电商购物商城 前后端分离 前台商城:Vue全家桶 后台管理系统](https://github.com/HurriedOn/xmall)
+
 ### 在线 .md 转换成 .pdf
 http://www.mdtr2pdf.com/index_en.html
