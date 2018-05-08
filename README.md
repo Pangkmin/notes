@@ -39,5 +39,7 @@ http://jsrun.net/tutorial/dZKKp
 
 [iView admin是基于Vue.js，搭配使用iView UI组件库形成的一套后台集成解决方案](https://github.com/iview/iview-admin)
 
+[基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用](https://github.com/bailicangdu/vue2-elm)
+
 ### 在线 .md 转换成 .pdf
 http://www.mdtr2pdf.com/index_en.html
