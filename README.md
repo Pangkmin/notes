@@ -47,3 +47,6 @@ http://jsrun.net/tutorial/dZKKp
 
 ### 在线 .md 转换成 .pdf
 http://www.mdtr2pdf.com/index_en.html
+
+### CSS 专业技巧
+https://github.com/AllThingsSmitty/css-protips/blob/master/translations/zh-CN/README.md#%E4%BD%BF%E7%94%A8-%E5%BD%A2%E4%BC%BC%E7%8C%AB%E5%A4%B4%E9%B9%B0-%E7%9A%84%E9%80%89%E6%8B%A9%E5%99%A8
