@@ -50,3 +50,18 @@ http://www.mdtr2pdf.com/index_en.html
 
 ### CSS 专业技巧
 https://github.com/AllThingsSmitty/css-protips/blob/master/translations/zh-CN/README.md#%E4%BD%BF%E7%94%A8-%E5%BD%A2%E4%BC%BC%E7%8C%AB%E5%A4%B4%E9%B9%B0-%E7%9A%84%E9%80%89%E6%8B%A9%E5%99%A8
+
+### 轻量级浏览器检测插件Feature.js
+
+在页面中引入feature.js文件，不需要对其进行初始化，只需引入文件即可。
+```html
+<script src="js/feature.js"></script>
+```
+然后可以使用特性检测来检测浏览器是否支持某些特性，例如：
+```js
+if (feature.webGL) {
+  console.log("你的浏览器支持WebGL");
+} else {
+  console.log("你的浏览器不支持WebGL");
+}
+```
