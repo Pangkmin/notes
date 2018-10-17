@@ -71,3 +71,7 @@ if (feature.webGL && feature.svg && feature.canvas) {
   console.log("你的浏览器支持Canvas、svg和WebGL")
 }
 ```
+
+### 网页动画效果库
+ ##### 1. GSAP  https://greensock.com/gsap
+ ##### 2. Anime.js http://animejs.com/
