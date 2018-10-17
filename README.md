@@ -65,3 +65,9 @@ if (feature.webGL) {
   console.log("你的浏览器不支持WebGL");
 }
 ```
+也可以同时进行多选特性的检测：
+```js
+if (feature.webGL && feature.svg && feature.canvas) {
+  console.log("你的浏览器支持Canvas、svg和WebGL")
+}
+```
