@@ -19,7 +19,7 @@ http://jsrun.net/tutorial/dZKKp
 [sublime 插件安装](./package.md)
 
 ### 粒子效果库
-http://www.jq22.com/js/a10.html
+http://www.jq22.com/js/a10.html <br/>
 http://www.jq22.com/js/a9.html
 
 ### CSS 布局
