@@ -20,6 +20,7 @@ http://jsrun.net/tutorial/dZKKp
 
 ### 粒子效果库
 http://www.jq22.com/js/a10.html
+http://www.jq22.com/js/a9.html
 
 ### CSS 布局
 [多行文本溢出及对齐](./display.md)
