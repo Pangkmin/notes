@@ -18,6 +18,9 @@ http://jsrun.net/tutorial/dZKKp
 
 [sublime 插件安装](./package.md)
 
+### 粒子效果库
+http://www.jq22.com/js/a10.html
+
 ### CSS 布局
 [多行文本溢出及对齐](./display.md)
 
