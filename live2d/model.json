@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"model": "model.moc",
+	"textures": [
+		"textures/texture_chunjie2.png"
+	],
+	"physics":"physics.json",
+	"layout": {
+		"center_x": 0.0,
+		"center_y": 0.0,
+		"width": 1.9
+	},
+	"hit_areas_custom": {
+		"head_x": [-0.35, 0.6],
+		"head_y": [0.19, -0.2],
+		"body_x": [-0.3, -0.25],
+		"body_y": [0.3, -0.9]
+	},
+	"motions": {
+        "idle": [
+            {"file":"motions/all.mtn"}
+        ],
+		"sleepy": [
+			{"file": "motions/neru.mtn"}
+		],
+    "flick_head":[
+      {"file":"motions/wink.mtn"},
+			{"file":"motions/mimifuru.mtn"},
+			{"file":"motions/komaru.mtn"}
+    ],
+     "tap_body":[
+      {"file":"motions/syaberu.mtn"},
+      {"file":"motions/shippofuru.mtn"},
+			{"file":"motions/niko.mtn"},
+			{"file":"motions/jump.mtn"}
+    ]
+	}
+}
