@@ -79,3 +79,8 @@ if (feature.webGL && feature.svg && feature.canvas) {
 ### 网页动画效果库
 1. GSAP  https://greensock.com/gsap  <br/>
 2. Anime.js http://animejs.com/
+
+
+### Live2D 卡通动画
+live2D 卡通人物动画学习
+http://www.live2d.com/usermanual/cubism2_cn/lets-do-it/quick-modeling.html
