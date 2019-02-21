@@ -25,6 +25,12 @@ http://www.jq22.com/js/a9.html
 ### CSS 布局
 [多行文本溢出及对齐](./display.md)
 
+### CSS 专业技巧
+https://github.com/AllThingsSmitty/css-protips/blob/master/translations/zh-CN/README.md#%E4%BD%BF%E7%94%A8-%E5%BD%A2%E4%BC%BC%E7%8C%AB%E5%A4%B4%E9%B9%B0-%E7%9A%84%E9%80%89%E6%8B%A9%E5%99%A8
+
+### CSS3 三次贝塞尔曲线(cubic-bezier)
+[CSS3动画速度的控制通过三次贝塞尔曲线函数实现](./cubic.md)
+
 ### Discuz搭建论坛
 [Discuz在Windows服务器上的环境搭建](./discuz.md) <br/>
 [Discuz在CentOS服务器上的环境搭建](./discuz_centos.md)
@@ -51,9 +57,6 @@ http://www.jq22.com/js/a9.html
 
 ### 在线 .md 转换成 .pdf
 http://www.mdtr2pdf.com/index_en.html
-
-### CSS 专业技巧
-https://github.com/AllThingsSmitty/css-protips/blob/master/translations/zh-CN/README.md#%E4%BD%BF%E7%94%A8-%E5%BD%A2%E4%BC%BC%E7%8C%AB%E5%A4%B4%E9%B9%B0-%E7%9A%84%E9%80%89%E6%8B%A9%E5%99%A8
 
 ### 轻量级浏览器检测插件Feature.js
 
