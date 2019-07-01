@@ -6,7 +6,7 @@
 http://jsrun.net/tutorial/dZKKp
 
 ### Web前端开发规范文档
-[Webpack--管理资源](./specification.md)
+[规范文档](./specification.md)
 
 ### 图片无损压缩工具
 [在线压缩](./compress.md)
