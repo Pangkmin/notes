@@ -30,6 +30,8 @@ https://github.com/AllThingsSmitty/css-protips/blob/master/translations/zh-CN/RE
 
 [CSS3动画速度的控制通过三次贝塞尔曲线函数实现](./cubic.md)
 
+[CSS3 mix-blend-mode混合模式](https://www.zhangxinxu.com/wordpress/2015/05/css3-mix-blend-mode-background-blend-mode/)
+
 ### Discuz搭建论坛
 [Discuz在Windows服务器上的环境搭建](./discuz.md) <br/>
 [Discuz在CentOS服务器上的环境搭建](./discuz_centos.md)
