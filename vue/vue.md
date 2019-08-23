@@ -5,6 +5,8 @@ $ npm install --global vue-cli
 $ vue init webpack my-project
 # 安装依赖
 $ cd my-project
+# 项目打包
+$ npm run build
 ```
 
 #### vue项目拷贝到另一个地方启动不了的解决办法
