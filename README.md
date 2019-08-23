@@ -1,6 +1,9 @@
 # notes
 个人笔记集
 
+### CSS字体font-family的正确选择方案
+http://caibaojian.com/font-family.html
+
 ### ECMAScript 6
 阮一峰书籍
 http://jsrun.net/tutorial/dZKKp
