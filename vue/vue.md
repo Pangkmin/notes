@@ -27,14 +27,12 @@ $ npm cache clean --force
 3.然后cnpm install 和npm run dev就可以在这台电脑运行你的项目
 
 ### webpack打包vue项目ie浏览器下报promise 未定义
-
 解决办法 : 
 
 步骤一: 安装 babel polyfill
 ```base
 $ npm install --save babel-polyfill
 ```
-
 步骤二: 配置build文件夹下webpack.base.conf.js文件添加 require('babel-polyfill') ,如下:
 ```js
 'use strict'
@@ -45,7 +43,6 @@ const vueLoaderConfig = require('./vue-loader.conf')
 const webpack = require('webpack')
 require('babel-polyfill')         
 ```
-
 步骤三: 配置main.js文件添加 import 'babel-polyfill',如下:
 ```js
 import Vue from 'vue'
