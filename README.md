@@ -1,5 +1,12 @@
 # notes
 个人笔记集
+
+### 音乐播放
+一个简约好看的 HTML5 音乐播放器 https://cplayer.js.org/
+
+QQ音乐api的使用 https://www.jianshu.com/p/67e4bd47d981
+
+
 ### [HTML meta标签属性使用](./meta.md)
 
 ### CSS字体font-family的正确选择方案
