@@ -34,15 +34,17 @@ $ node ./bin/www
      |- www <br/>
    |- public   # 静态文件根目录（静态html、css、js、图片、视频等）   <br/>
    |- routes   # 路由模板目录  <br/>
+      |- index.js
    |- views    # 视图目录，用于储存所有的ejs模板  <br/>
+      |- index.ejs
    |- app.js   # 项目的主文件   <br/>
    |- package.json  # 项目描述文件，声明项目的名称、版本、依赖等信息  <br/>
 
 
-### 相应对象-send方法
-响应对象res:
-  1) 响应对象是指服务器向客户端相应数据的对象，包含了所有要响应的内容。 <br/>
-  2）相应对象的方法  res.send();  <br/>
+### 相应对象
+响应对象res:响应对象是指服务器向客户端相应数据的对象，包含了所有要响应的内容。 <br/>
+*  相应对象的方法  res.send()
+index.js :
 ```js
  var express = require('express');
  var router = express.Router();
@@ -60,4 +62,22 @@ $ node ./bin/www
  });
  
  module.express = router;
+```
+*  res.render('模板名称',{数据}) 读取模板文件，拼接数据，自动将结果发送给浏览器
+index.js :
+```js
+ var express = require('express');
+ var router = express.Router();
+ 
+ router.get('/',function(req, res){
+  //模板渲染
+  res.render('index.ejs',{title:'张三'});
+ });
+ 
+ module.express = router;
+```
+*  res.download 下载
+```js
+  res.download('./xxx.doc'); //下载当前目录下的xxx.doc文件。
+  res.download('./xxx.doc', 'yyy.doc'); //下载当前目录下的xxx.doc文件， 并且重命名为yyy.doc 。
 ```
