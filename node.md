@@ -39,5 +39,25 @@ $ node ./bin/www
    |- package.json  # 项目描述文件，声明项目的名称、版本、依赖等信息  <br/>
 
 
-*  相应对象-send方法
-
+### 相应对象-send方法
+响应对象res:
+  1) 响应对象是指服务器向客户端相应数据的对象，包含了所有要响应的内容。 <br/>
+  2）相应对象的方法  res.send();  <br/>
+```js
+ var express = require('express');
+ var router = express.Router();
+ 
+ router.get('/',function(req, res){
+  // res.send('hell world'); //可以返回字符串
+  // var data = {"name":"李白","age":18};
+  // res.send(data);  //可以返回JSON数据
+  
+  // res.send('1');  // 如果一定要返回数字，必须加引号变成字符串，否则会报错。
+  // send方法只能出现一次，重复无效还要报错。
+  
+  // 返回状态码+数据 链式调用
+  res.status(404).send('<h1>没有找到内容</h1>'); 
+ });
+ 
+ module.express = router;
+```
