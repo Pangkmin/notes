@@ -28,18 +28,19 @@ $ node ./bin/www
 ```
 
 项目结构：<br/>
-|- app <br/>
-   |- node_modules   # 依赖包的目录  <br/>
-   |- bin   # 可执行文件目录  <br/>
-     |- www <br/>
-   |- public   # 静态文件根目录（静态html、css、js、图片、视频等）   <br/>
-   |- routes   # 路由模板目录  <br/>
+```base
+|- app 
+   |- node_modules   # 依赖包的目录  
+   |- bin   # 可执行文件目录  
+     |- www
+   |- public   # 静态文件根目录（静态html、css、js、图片、视频等）   
+   |- routes   # 路由模板目录  
       |- index.js
-   |- views    # 视图目录，用于储存所有的ejs模板  <br/>
+   |- views    # 视图目录，用于储存所有的ejs模板  
       |- index.ejs
-   |- app.js   # 项目的主文件   <br/>
-   |- package.json  # 项目描述文件，声明项目的名称、版本、依赖等信息  <br/>
-
+   |- app.js   # 项目的主文件   
+   |- package.json  # 项目描述文件，声明项目的名称、版本、依赖等信息 
+```
 
 ### 相应对象
 响应对象res:响应对象是指服务器向客户端相应数据的对象，包含了所有要响应的内容。 <br/>
