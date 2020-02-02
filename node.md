@@ -43,7 +43,7 @@ $ node ./bin/www
 
 ### 相应对象
 响应对象res:响应对象是指服务器向客户端相应数据的对象，包含了所有要响应的内容。 <br/>
-*  相应对象的方法  res.send()
+*  相应对象的方法  res.send()   <br/>
 index.js :
 ```js
  var express = require('express');
@@ -80,4 +80,15 @@ index.js :
 ```js
   res.download('./xxx.doc'); //下载当前目录下的xxx.doc文件。
   res.download('./xxx.doc', 'yyy.doc'); //下载当前目录下的xxx.doc文件， 并且重命名为yyy.doc 。
+```
+* res.redirect 重定向
+```js
+ var express = require('express');
+ var router = express.Router();
+ 
+ router.get('/',function(req, res){
+  res.redirect('htttp://www.baidu.com');
+ });
+ 
+ module.express = router;
 ```
