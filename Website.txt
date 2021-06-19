@@ -49,4 +49,5 @@ sublime text3:      http://www.cnblogs.com/liuchaoH/p/6370008.html
 效果动画:
 	轻量级绘制SVG轮廓线路径动画插件: http://demo.htmleaf.com/1509/201509111546/index.html
 滚动条插件  http://www.jq22.com/demo/customer/
+页面切换散开canvas动画；
 	
