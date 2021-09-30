@@ -54,5 +54,6 @@ sublime text3:      http://www.cnblogs.com/liuchaoH/p/6370008.html
    	https://useplink.com/en/
 	https://www.prevint.pt/en/  // 横屏动画
 	http://56k.studiovoila.com/about  // 页面切换散开canvas动画
+	https://bodymovin.solutions/   //svg动画
 	
 	
